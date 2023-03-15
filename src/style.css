@@ -1,0 +1,35 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	/* background-color: #242424; */
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+#game {
+	box-shadow: #32325d40 0px 30px 60px -12px inset,
+		#0000004d 0px 18px 36px -18px inset;
+	border-radius: 15px;
+	border: 1px solid #32325d40;
+	padding: 3px;
+}
